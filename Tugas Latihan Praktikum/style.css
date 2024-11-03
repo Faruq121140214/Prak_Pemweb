@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3e33336a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.filters button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
+
+.priority-low {
+    color: green;
+}
+
+.priority-medium {
+    color: orange;
+}
+
+.priority-high {
+    color: red;
+}
+
+.filters button.active {
+    background-color: #0c4a0e; /* Warna hijau untuk tombol aktif */
+    color: white; /* Mengubah warna teks tombol aktif menjadi putih */
+}
