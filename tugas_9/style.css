@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('dark.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+h1 {
+    text-align: center;
+    color: #ddd;
+
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+}
+table .odd {
+    background-color: #323030;
+}
+table .even {
+    background-color: #1a1a1a;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.update { background-color: orange; color: white; }
+button.select { background-color: green; color: white; }
+button.delete { background-color: red; color: white; }
+.pagination a {
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+}
